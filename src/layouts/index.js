@@ -10,6 +10,7 @@ const TemplateWrapper = ({ children }) => (
     <Helmet title="JAM Stack Demo - APD" />
     <Navbar />
     <div>{children()}</div>
+    <foot>Footer Info bar</foot>
   </div>
 )
 
